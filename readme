@@ -1,1 +1,22 @@
-https://www.getpostman.com/collections/cc88cd5388487dc66c72
+Before you start:
+This is solutions for assignments from course: Postman: The Complete Guide - REST API Testing https://www.udemy.com/postman-the-complete-guide/
+Please contact me or visit https://learning.getpostman.com if you have no idea what I am talking about
+ 
+All requests are executed on the website https://trello.com
+To execute requests successfully you need valid account and valid Developer API token
+To create account use 'register' button on the https://trello.com
+To get a key/token pair visit https://trello.com/app-key
+Before you execute requests you need to set key/token pair as environment variables (https://learning.getpostman.com/docs/postman/environments_and_globals/variables/)
+
+Collection is a set of API requests to perform following:
+- Create new board and give it unique name
+- Create new 'TODO' list on that board
+- Create new 'DONE' list on that board
+- Create new card with 'Learn Postman' name on the 'TODO' list
+- Move card to the 'DONE' list
+- Delete newly created board and all other existing board 
+
+All requests are covered by simple tests written on JavaScript
+
+
+Good luck in trying my solutions
